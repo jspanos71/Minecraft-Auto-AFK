@@ -1,0 +1,20 @@
+scoreboard objectives add afk.AFKCounter dummy
+scoreboard objectives add afk.AFKClock dummy
+scoreboard objectives add afk.AFKMovement dummy
+scoreboard objectives add afk.AFKDisWalk minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add afk.AFKDisSwim minecraft.custom:minecraft.swim_one_cm
+scoreboard objectives add afk.AFKDisWOW minecraft.custom:minecraft.walk_on_water_one_cm
+scoreboard objectives add afk.AFKDisWUW minecraft.custom:minecraft.walk_under_water_one_cm
+scoreboard objectives add afk.AFKDisCrouch minecraft.custom:minecraft.crouch_one_cm
+scoreboard objectives add afk.AFKDisSprint minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add afk.AFKDisFallen minecraft.custom:minecraft.fall_one_cm
+scoreboard objectives add afk.AFKDisClimb minecraft.custom:minecraft.climb_one_cm
+scoreboard objectives add afk.AFKDisFlown minecraft.custom:minecraft.fly_one_cm
+scoreboard objectives add afk.AFKDisBoat minecraft.custom:minecraft.boat_one_cm
+scoreboard objectives add afk.AFKDisPig minecraft.custom:minecraft.pig_one_cm
+scoreboard objectives add afk.AFKDisHorse minecraft.custom:minecraft.horse_one_cm
+scoreboard objectives add afk.AFKDisElytra minecraft.custom:minecraft.aviate_one_cm
+scoreboard objectives add afk.AFKDisCart minecraft.custom:minecraft.minecart_one_cm
+scoreboard objectives add afk.AFKJump minecraft.custom:minecraft.jump
+team add AFK
+team modify AFK color gray 
